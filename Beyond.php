@@ -11,7 +11,7 @@
         echo "<br/>";
         echo strftime("The date today is  still %m/%d/%y", $curenttime)."<br/>";
         
-        function remove_zeros($marked_string){
+        function remove_zeros($mark){
             $no_zeros = str_replace('*0','',$marked_string);//remove *0
             $no_zeros;
             $clean_string = str_replace('*','',$no_zeros); //remove * in month like December(12)
